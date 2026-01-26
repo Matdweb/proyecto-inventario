@@ -1,0 +1,6 @@
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\bin\Debug\MiPrimeraSolucion.Abstracciones.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\bin\Debug\MiPrimeraSolucion.Abstracciones.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\obj\Debug\MiPrimeraSolucion.Abstracciones.csproj.AssemblyReference.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\obj\Debug\MiPrimeraSolucion.Abstracciones.csproj.CoreCompileInputs.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\obj\Debug\MiPrimeraSolucion.Abstracciones.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.Abstracciones\obj\Debug\MiPrimeraSolucion.Abstracciones.pdb
