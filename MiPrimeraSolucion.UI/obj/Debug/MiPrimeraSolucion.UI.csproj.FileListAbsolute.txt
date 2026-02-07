@@ -95,3 +95,5 @@ C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\obj\Debug\MiPrimeraSol
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\obj\Debug\MiPrimeraSolucion.UI.pdb
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.Abstracciones.dll
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.Abstracciones.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.LogicaDeNegocio.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.LogicaDeNegocio.pdb

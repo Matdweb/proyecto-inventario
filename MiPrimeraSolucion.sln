@@ -9,6 +9,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.UI", "MiP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.Abstracciones", "MiPrimeraSolucion.Abstracciones\MiPrimeraSolucion.Abstracciones.csproj", "{9AD7A4B7-771C-4C68-9448-8EB319312C37}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.LogicaDeNegocio", "MiPrimeraSolucion.LogicaDeNegocio\MiPrimeraSolucion.LogicaDeNegocio.csproj", "{C576E343-D068-4FF0-9672-EDCA179D6FD7}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -27,6 +29,10 @@ Global
 		{9AD7A4B7-771C-4C68-9448-8EB319312C37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AD7A4B7-771C-4C68-9448-8EB319312C37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AD7A4B7-771C-4C68-9448-8EB319312C37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

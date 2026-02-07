@@ -1,4 +1,6 @@
-﻿using MiPrimeraSolucion.Abstracciones.Modelos.Inventarios;
+﻿using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
+using MiPrimeraSolucion.Abstracciones.Modelos.Inventarios;
+using MiPrimeraSolucion.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -9,24 +11,33 @@ namespace MiPrimeraSolucion.UI.Controllers
 {
     public class InventarioController : Controller
     {
+        IObtenerTodoElInventarioLN _obtenerTodoElInventarioLN;
+
+        public InventarioController()
+        {
+            _obtenerTodoElInventarioLN = new ObtenerTodoElInventarioLN();
+        }
+
         // GET: Inventario
         public ActionResult ObtenerTodoElInventario()
         {
-            List<InventarioDto> laListaDelInventario = new List<InventarioDto>();
-            laListaDelInventario.Add(new InventarioDto
-            {
-                NombreDelRepuesto = "Bujias",
-                MarcaDelRepuesto = "Chevrolet",
-                Anio = 2020,
-                Canitdad = 50,
-            });
+            List<InventarioDto> laListaDelInventario = _obtenerTodoElInventarioLN.Obtener();
+
             return View(laListaDelInventario);
         }
 
         // GET: Inventario/Details/5
         public ActionResult Detalles(int id)
         {
-            return View();
+            InventarioDto elInventario = new InventarioDto
+            {
+                Id = id,
+                MarcaDelRepuesto = "Chevrolet",
+                NombreDelRepuesto = "Bujias",
+                Anio = 2020,
+                Canitdad = 50,
+            };
+            return View(elInventario);
         }
 
         // GET: Inventario/Create
@@ -37,13 +48,13 @@ namespace MiPrimeraSolucion.UI.Controllers
 
         // POST: Inventario/Create
         [HttpPost]
-        public ActionResult AgregarRepuesto(FormCollection collection)
+        public ActionResult AgregarRepuesto(InventarioDto elInventarioAGuardar)
         {
             try
             {
                 // TODO: Add insert logic here
 
-                return RedirectToAction("Index");
+                return RedirectToAction("ObtenerTodoElInventario");
             }
             catch
             {
@@ -52,14 +63,22 @@ namespace MiPrimeraSolucion.UI.Controllers
         }
 
         // GET: Inventario/Edit/5
-        public ActionResult Editar(int id)
+        public ActionResult EditarRepuesto(int id)
         {
-            return View();
+            InventarioDto elInventario = new InventarioDto
+            {
+                Id = id,
+                MarcaDelRepuesto = "Chevrolet",
+                NombreDelRepuesto = "Bujias",
+                Anio = 2020,
+                Canitdad = 50,
+            };
+            return View(elInventario);
         }
 
         // POST: Inventario/Edit/5
         [HttpPost]
-        public ActionResult Editar(int id, FormCollection collection)
+        public ActionResult EditarRepuesto(int id, InventarioDto elInventarioAEditar)
         {
             try
             {
@@ -74,14 +93,22 @@ namespace MiPrimeraSolucion.UI.Controllers
         }
 
         // GET: Inventario/Delete/5
-        public ActionResult Eliminar(int id)
+        public ActionResult EliminarRepuesto(int id)
         {
-            return View();
+            InventarioDto elInventario = new InventarioDto
+            {
+                Id = id,
+                MarcaDelRepuesto = "Chevrolet",
+                NombreDelRepuesto = "Bujias",
+                Anio = 2020,
+                Canitdad = 50,
+            };
+            return View(elInventario);
         }
 
         // POST: Inventario/Delete/5
         [HttpPost]
-        public ActionResult Eliminar(int id, FormCollection collection)
+        public ActionResult EliminarRepuesto(int id, InventarioDto elInventarioParaEliminar)
         {
             try
             {

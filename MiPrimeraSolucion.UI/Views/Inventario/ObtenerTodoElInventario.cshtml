@@ -8,80 +8,98 @@
 
 <p>
     @Html.ActionLink("Create New", "AgregarRepuesto")
+    | <button class="btn btn-info" id="alertaNormal">Alerta normal</button>
+    | <button class="btn btn-success" id="alertaSweet">Alerta sweet</button>
 </p>
-<table class="table">
-    <tr>
-        <th>
-            @Html.DisplayNameFor(model => model.CodigoDelRepuesto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.NombreDelRepuesto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.MarcaDelRepuesto)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Vehiculo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Modelo)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Anio)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Canitdad)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FechaDeRegistro)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.FechaDeModificacion)
-        </th>
-        <th>
-            @Html.DisplayNameFor(model => model.Estado)
-        </th>
-        <th></th>
-    </tr>
+<table class="table" id="laTableDelInventario">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.CodigoDelRepuesto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.NombreDelRepuesto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.MarcaDelRepuesto)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Vehiculo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Modelo)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Anio)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Canitdad)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeRegistro)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.FechaDeModificacion)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Estado)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
 
-@foreach (var item in Model) {
-    <tr>
-        <td>
-            @Html.DisplayFor(modelItem => item.CodigoDelRepuesto)
-        </td>
-        <th>
-            @Html.DisplayNameFor(model => model.NombreDelRepuesto)
-        </th>
-        <td>
-            @Html.DisplayFor(modelItem => item.MarcaDelRepuesto)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Vehiculo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Modelo)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Anio)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Canitdad)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FechaDeRegistro)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.FechaDeModificacion)
-        </td>
-        <td>
-            @Html.DisplayFor(modelItem => item.Estado)
-        </td>
-        <td>
-            @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-            @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-            @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-        </td>
-    </tr>
-}
+    @foreach (var item in Model)
+    {
+        <tbody>
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.CodigoDelRepuesto)
+                </td>
+                <th>
+                    @Html.DisplayNameFor(model => model.NombreDelRepuesto)
+                </th>
+                <td>
+                    @Html.DisplayFor(modelItem => item.MarcaDelRepuesto)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Vehiculo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Modelo)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Anio)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Canitdad)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaDeRegistro)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FechaDeModificacion)
+                </td>
+                <td>
+                    @if (item.Estado)
+                    {
+                        <label>Activo</label>
+                    }
+                    else
+                    {
+                        <label>Inactivo</label>
+                    }
+                </td>
+                <td>
+                    @Html.ActionLink("Editar", "EditarRepuesto", new { id = item.Id }) |
+                    @Html.ActionLink("Detalles", "Detalles", new { id = item.Id }) |
+                    @Html.ActionLink("Eliminar", "EliminarRepuesto", new { id = item.Id })
+                </td>
+            </tr>
+        </tbody>
+    }
 
 </table>
+
+@section Scripts {
+    <script src="~/Scripts/Inventario/Inventario.js"></script>
+}

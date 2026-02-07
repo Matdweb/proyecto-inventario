@@ -1,0 +1,9 @@
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.LogicaDeNegocio.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.LogicaDeNegocio.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.Abstracciones.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.Abstracciones.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.csproj.AssemblyReference.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.csproj.CoreCompileInputs.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimer.7755733A.Up2Date
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.pdb
