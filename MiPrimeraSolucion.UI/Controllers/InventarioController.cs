@@ -1,5 +1,13 @@
-﻿using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
+﻿using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.AgregarRepuesto;
+using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.EditarRepuesto;
+using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.EliminarRepuesto;
+using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerRepuestoPorId;
+using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
 using MiPrimeraSolucion.Abstracciones.Modelos.Inventarios;
+using MiPrimeraSolucion.LogicaDeNegocio.Inventario.AgregarRepuesto;
+using MiPrimeraSolucion.LogicaDeNegocio.Inventario.EditarRepuesto;
+using MiPrimeraSolucion.LogicaDeNegocio.Inventario.EliminarRepuesto;
+using MiPrimeraSolucion.LogicaDeNegocio.Inventario.ObtenerRepuestoPorId;
 using MiPrimeraSolucion.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
 using System;
 using System.Collections.Generic;
@@ -12,10 +20,18 @@ namespace MiPrimeraSolucion.UI.Controllers
     public class InventarioController : Controller
     {
         IObtenerTodoElInventarioLN _obtenerTodoElInventarioLN;
+        IObtenerRepuestoPorIdLN _obtenerRepuestoPorIdLN;
+        IAgregarRepuestoLN _agregarRepuestoLN;
+        IEditarRepuestoLN _editarRepuestoLN;
+        IEliminarRepuestoLN _eliminarRepuestoLN;
 
         public InventarioController()
         {
             _obtenerTodoElInventarioLN = new ObtenerTodoElInventarioLN();
+            _obtenerRepuestoPorIdLN = new ObtenerRepuestoPorIdLN();
+            _agregarRepuestoLN = new AgregarRepuestoLN();
+            _editarRepuestoLN = new EditarRepuestoLN();
+            _eliminarRepuestoLN = new EliminarRepuestoLN();
         }
 
         // GET: Inventario
@@ -29,14 +45,7 @@ namespace MiPrimeraSolucion.UI.Controllers
         // GET: Inventario/Details/5
         public ActionResult Detalles(int id)
         {
-            InventarioDto elInventario = new InventarioDto
-            {
-                Id = id,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            };
+            InventarioDto elInventario = _obtenerRepuestoPorIdLN.Obtener(id);
             return View(elInventario);
         }
 
@@ -52,9 +61,16 @@ namespace MiPrimeraSolucion.UI.Controllers
         {
             try
             {
-                // TODO: Add insert logic here
+                int seGuardo = _agregarRepuestoLN.Agregar(elInventarioAGuardar);
+                if (seGuardo > 0)
+                {
 
-                return RedirectToAction("ObtenerTodoElInventario");
+                    return RedirectToAction("ObtenerTodoElInventario");
+                }
+                else
+                {
+                    return View();
+                }
             }
             catch
             {
@@ -65,14 +81,7 @@ namespace MiPrimeraSolucion.UI.Controllers
         // GET: Inventario/Edit/5
         public ActionResult EditarRepuesto(int id)
         {
-            InventarioDto elInventario = new InventarioDto
-            {
-                Id = id,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            };
+            InventarioDto elInventario = _obtenerRepuestoPorIdLN.Obtener(id);
             return View(elInventario);
         }
 
@@ -83,8 +92,12 @@ namespace MiPrimeraSolucion.UI.Controllers
             try
             {
                 // TODO: Add update logic here
-
-                return RedirectToAction("Index");
+                bool seEdito = _editarRepuestoLN.Editar(elInventarioAEditar);
+                if (seEdito)
+                {
+                    return RedirectToAction("ObtenerTodoElInventario");
+                }
+                return View();
             }
             catch
             {
@@ -95,14 +108,7 @@ namespace MiPrimeraSolucion.UI.Controllers
         // GET: Inventario/Delete/5
         public ActionResult EliminarRepuesto(int id)
         {
-            InventarioDto elInventario = new InventarioDto
-            {
-                Id = id,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            };
+            InventarioDto elInventario = _obtenerRepuestoPorIdLN.Obtener(id);
             return View(elInventario);
         }
 
@@ -113,8 +119,12 @@ namespace MiPrimeraSolucion.UI.Controllers
             try
             {
                 // TODO: Add delete logic here
-
-                return RedirectToAction("Index");
+                bool seElimino = _eliminarRepuestoLN.Eliminar(id);
+                if (seElimino)
+                {
+                    return RedirectToAction("ObtenerTodoElInventario");
+                }
+                return View();
             }
             catch
             {

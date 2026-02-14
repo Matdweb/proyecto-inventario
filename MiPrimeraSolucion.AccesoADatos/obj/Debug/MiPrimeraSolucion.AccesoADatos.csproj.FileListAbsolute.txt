@@ -1,0 +1,14 @@
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\obj\Debug\MiPrimeraSolucion.AccesoADatos.csproj.AssemblyReference.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\obj\Debug\MiPrimeraSolucion.AccesoADatos.csproj.CoreCompileInputs.cache
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\MiPrimeraSolucion.AccesoADatos.dll.config
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\MiPrimeraSolucion.AccesoADatos.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\MiPrimeraSolucion.AccesoADatos.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\EntityFramework.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\EntityFramework.SqlServer.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\MiPrimeraSolucion.Abstracciones.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\MiPrimeraSolucion.Abstracciones.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\EntityFramework.xml
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\bin\Debug\EntityFramework.SqlServer.xml
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\obj\Debug\MiPrimer.43786042.Up2Date
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\obj\Debug\MiPrimeraSolucion.AccesoADatos.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.AccesoADatos\obj\Debug\MiPrimeraSolucion.AccesoADatos.pdb

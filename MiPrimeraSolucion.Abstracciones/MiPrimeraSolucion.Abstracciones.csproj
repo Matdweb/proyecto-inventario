@@ -42,6 +42,16 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="AccesoADatos\Inventario\AgregarRepuesto\IAgregarRepuestoAD.cs" />
+    <Compile Include="AccesoADatos\Inventario\EditarRepuesto\IEditarRepuestoAD.cs" />
+    <Compile Include="AccesoADatos\Inventario\EliminarRepuesto\IEliminarRepuestoAD.cs" />
+    <Compile Include="AccesoADatos\Inventario\ObtenerRepuestoPorId\IObtenerRepuestoPorIdAD.cs" />
+    <Compile Include="AccesoADatos\Inventario\ObtenerTodoElInventario\IObtenerTodoElInventarioAD.cs" />
+    <Compile Include="LogicaDeNegocio\General\Fechas\IFechasLN.cs" />
+    <Compile Include="LogicaDeNegocio\Inventario\AgregarRepuesto\IAgregarRepuestoLN.cs" />
+    <Compile Include="LogicaDeNegocio\Inventario\EditarRepuesto\IEditarRepuestoLN.cs" />
+    <Compile Include="LogicaDeNegocio\Inventario\EliminarRepuesto\IEliminarRepuestoLN.cs" />
+    <Compile Include="LogicaDeNegocio\Inventario\ObtenerRepuestoPorId\IObtenerRepuestoPorIdLN.cs" />
     <Compile Include="LogicaDeNegocio\Inventario\ObtenerTodoElInventario\IObtenerTodoElInventarioLN.cs" />
     <Compile Include="Modelos\Clientes\ClienteDto.cs" />
     <Compile Include="Modelos\Inventarios\InventarioDto.cs" />

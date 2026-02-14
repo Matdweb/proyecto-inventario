@@ -11,6 +11,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.Abstracci
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.LogicaDeNegocio", "MiPrimeraSolucion.LogicaDeNegocio\MiPrimeraSolucion.LogicaDeNegocio.csproj", "{C576E343-D068-4FF0-9672-EDCA179D6FD7}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MiPrimeraSolucion.AccesoADatos", "MiPrimeraSolucion.AccesoADatos\MiPrimeraSolucion.AccesoADatos.csproj", "{AD17AD30-F6AD-4554-BAB0-F638D5B106FD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -33,6 +35,10 @@ Global
 		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C576E343-D068-4FF0-9672-EDCA179D6FD7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AD17AD30-F6AD-4554-BAB0-F638D5B106FD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AD17AD30-F6AD-4554-BAB0-F638D5B106FD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AD17AD30-F6AD-4554-BAB0-F638D5B106FD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AD17AD30-F6AD-4554-BAB0-F638D5B106FD}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

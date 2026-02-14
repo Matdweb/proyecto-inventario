@@ -15,19 +15,19 @@ namespace MiPrimeraSolucion.Abstracciones.Modelos.Inventarios
 		[Required]
 		public string CodigoDelRepuesto { get; set; }
 		[Display(Name = "Nombre del repuesto")]
-		[MinLength(15)]
+		[MaxLength(15)]
 		[Required]
 		public string NombreDelRepuesto { get; set; }
 		[Display(Name = "Marca del repuesto")]
-		[MinLength(15)]
+		[MaxLength(15)]
 		[Required]
 		public string MarcaDelRepuesto { get; set; }
 		[Display(Name = "Vehículo")]
-		[MinLength(15)]
+		[MaxLength(15)]
 		[Required]
 		public string Vehiculo { get; set; }
 		[Display(Name = "Modelo")]
-		[MinLength(15)]
+		[MaxLength(15)]
 		[Required]
 		public string Modelo { get; set; }
 		[Display(Name = "Año")]
@@ -39,7 +39,7 @@ namespace MiPrimeraSolucion.Abstracciones.Modelos.Inventarios
 		[Display(Name = "Fecha de registro")]
 		public DateTime FechaDeRegistro { get; set; }
 		[Display(Name = "Fecha de modificación")]
-		public DateTime FechaDeModificacion { get; set; }
+		public DateTime? FechaDeModificacion { get; set; }
 		[Display(Name = "Estado")]
 		public bool Estado { get; set; }
 

@@ -7,3 +7,8 @@ C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimer.7755733A.Up2Date
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.dll
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\obj\Debug\MiPrimeraSolucion.LogicaDeNegocio.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.AccesoADatos.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\EntityFramework.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.AccesoADatos.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\MiPrimeraSolucion.AccesoADatos.dll.config
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.LogicaDeNegocio\bin\Debug\EntityFramework.xml

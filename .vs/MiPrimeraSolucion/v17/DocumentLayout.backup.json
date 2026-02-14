@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Progra-avanzada\\MiPrimeraSolucion\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|c:\\progra-avanzada\\miprimerasolucion\\miprimerasolucion.ui\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|solutionrelative:miprimerasolucion.ui\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|c:\\progra-avanzada\\miprimerasolucion\\miprimerasolucion.ui\\views\\inventario\\editarrepuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|solutionrelative:miprimerasolucion.ui\\views\\inventario\\editarrepuesto.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{9AD7A4B7-771C-4C68-9448-8EB319312C37}|MiPrimeraSolucion.Abstracciones\\MiPrimeraSolucion.Abstracciones.csproj|c:\\progra-avanzada\\miprimerasolucion\\miprimerasolucion.abstracciones\\logicadenegocio\\inventario\\obtenertodoelinventario\\iobtenertodoelinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{9AD7A4B7-771C-4C68-9448-8EB319312C37}|MiPrimeraSolucion.Abstracciones\\MiPrimeraSolucion.Abstracciones.csproj|solutionrelative:miprimerasolucion.abstracciones\\logicadenegocio\\inventario\\obtenertodoelinventario\\iobtenertodoelinventarioln.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|c:\\progra-avanzada\\miprimerasolucion\\miprimerasolucion.ui\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5F10A00B-B6C2-4D93-91EB-CD4A006C2BC6}|MiPrimeraSolucion.UI\\MiPrimeraSolucion.UI.csproj|solutionrelative:miprimerasolucion.ui\\controllers\\inventariocontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,32 +18,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IObtenerTodoElInventarioLN.cs",
-              "DocumentMoniker": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.Abstracciones\\LogicaDeNegocio\\Inventario\\ObtenerTodoElInventario\\IObtenerTodoElInventarioLN.cs",
-              "RelativeDocumentMoniker": "MiPrimeraSolucion.Abstracciones\\LogicaDeNegocio\\Inventario\\ObtenerTodoElInventario\\IObtenerTodoElInventarioLN.cs",
-              "ToolTip": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.Abstracciones\\LogicaDeNegocio\\Inventario\\ObtenerTodoElInventario\\IObtenerTodoElInventarioLN.cs",
-              "RelativeToolTip": "MiPrimeraSolucion.Abstracciones\\LogicaDeNegocio\\Inventario\\ObtenerTodoElInventario\\IObtenerTodoElInventarioLN.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAvAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T04:15:25.073Z",
+              "DocumentIndex": 0,
+              "Title": "EditarRepuesto.cshtml",
+              "DocumentMoniker": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.UI\\Views\\Inventario\\EditarRepuesto.cshtml",
+              "RelativeDocumentMoniker": "MiPrimeraSolucion.UI\\Views\\Inventario\\EditarRepuesto.cshtml",
+              "ToolTip": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.UI\\Views\\Inventario\\EditarRepuesto.cshtml",
+              "RelativeToolTip": "MiPrimeraSolucion.UI\\Views\\Inventario\\EditarRepuesto.cshtml",
+              "ViewState": "AgIAAEUAAAAAAAAAAAAAAFkAAAAOAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2026-02-14T20:52:23.308Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "InventarioController.cs",
               "DocumentMoniker": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.UI\\Controllers\\InventarioController.cs",
               "RelativeDocumentMoniker": "MiPrimeraSolucion.UI\\Controllers\\InventarioController.cs",
               "ToolTip": "C:\\Progra-avanzada\\MiPrimeraSolucion\\MiPrimeraSolucion.UI\\Controllers\\InventarioController.cs",
               "RelativeToolTip": "MiPrimeraSolucion.UI\\Controllers\\InventarioController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAA1AAAAAAAAAA==",
+              "ViewState": "AgIAADMAAAAAAAAAAAAwwFkAAAAjAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-01T04:04:31.622Z",
+              "WhenOpened": "2026-02-14T20:52:43.707Z",
               "EditorCaption": ""
             }
           ]

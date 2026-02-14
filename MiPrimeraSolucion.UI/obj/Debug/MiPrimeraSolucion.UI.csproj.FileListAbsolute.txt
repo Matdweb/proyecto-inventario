@@ -97,3 +97,10 @@ C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.Abstracciones.pdb
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.LogicaDeNegocio.dll
 C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.LogicaDeNegocio.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\EntityFramework.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\EntityFramework.SqlServer.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.AccesoADatos.dll
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\EntityFramework.xml
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\EntityFramework.SqlServer.xml
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.AccesoADatos.pdb
+C:\Progra-avanzada\MiPrimeraSolucion\MiPrimeraSolucion.UI\bin\MiPrimeraSolucion.AccesoADatos.dll.config

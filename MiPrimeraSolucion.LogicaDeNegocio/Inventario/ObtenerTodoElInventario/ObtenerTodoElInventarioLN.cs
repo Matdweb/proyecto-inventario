@@ -1,5 +1,7 @@
-﻿using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
+﻿using MiPrimeraSolucion.Abstracciones.AccesoADatos.Inventario.ObtenerTodoElInventario;
+using MiPrimeraSolucion.Abstracciones.LogicaDeNegocio.Inventario.ObtenerTodoElInventario;
 using MiPrimeraSolucion.Abstracciones.Modelos.Inventarios;
+using MiPrimeraSolucion.AccesoADatos.Inventario.ObtenerTodoElInventario;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -10,60 +12,17 @@ namespace MiPrimeraSolucion.LogicaDeNegocio.Inventario.ObtenerTodoElInventario
 {
     public class ObtenerTodoElInventarioLN : IObtenerTodoElInventarioLN
     {
-        
+        IObtenerTodoElInventarioAD _obtenerTodoElInventarioAD;
+
+        public ObtenerTodoElInventarioLN()
+        {
+            _obtenerTodoElInventarioAD = new ObtenerTodoElInventarioAD();
+        }
+
         public List<InventarioDto> Obtener()
         {
-            List<InventarioDto> laListaDelInventario = new List<InventarioDto>();
-
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 1,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 2,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 3,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 4,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 5,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-            laListaDelInventario.Add(new InventarioDto
-            {
-                Id = 6,
-                MarcaDelRepuesto = "Chevrolet",
-                NombreDelRepuesto = "Bujias",
-                Anio = 2020,
-                Canitdad = 50,
-            });
-
+            List<InventarioDto> laListaDelInventario = _obtenerTodoElInventarioAD.Obtener();
+            //la logica con los datos obtenidos
             return laListaDelInventario;
         }
     }
